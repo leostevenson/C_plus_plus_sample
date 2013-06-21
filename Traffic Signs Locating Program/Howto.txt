@@ -1,0 +1,8 @@
+There are 2 modes in this program, image mode and camera mode.
+1.image mode:
+1 parameter should be provide, which is the location of image file, the command line could be:
+$trafficSign.exe <image_file_path>
+When at least 1 potential traffic sign be found, it will suspend to draw the rectange around this traffic sign, till user press any key.
+2. camera mode:
+no parameter needed.
+When at least 1 potential traffic sign be located, program will suspend and display the result in a window, then if user press any key, the program will keep going.
